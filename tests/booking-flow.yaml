@@ -1,0 +1,27 @@
+appId: com.habotconnect.parent
+
+---
+- launchApp
+
+- tapOn: "Login"
+
+- tapOn: "Email"
+- inputText: "parent@test.com"
+
+- tapOn: "Password"
+- inputText: "Test@123"
+
+- tapOn: "Sign In"
+
+- tapOn: "Search LSA"
+- inputText: "John"
+
+- tapOn: "John"
+
+- tapOn: "Select Date"
+
+- tapOn: "Select Time"
+
+- tapOn: "Book LSA"
+
+- assertVisible: "Booking Successful"
