@@ -22,5 +22,8 @@ jobs:
       - name: Install packages
         run: npm install
 
+      - name: Run ESLint
+        run: npm run lint
+
       - name: Execute unit and integration tests
         run: npm test
