@@ -24,3 +24,26 @@ iOS-specific checks.
 Any critical accessibility issue found in the booking journey
 should be fixed and re-tested before considering the flow ready
 for release.
+
+
+## Test Evidence
+
+The accessibility review will be performed across the main Parent-LSA booking journey:
+
+1. Parent login
+2. LSA search
+3. LSA profile selection
+4. Booking details
+5. Booking confirmation
+
+For each screen, I will verify:
+
+- Accessible name and role for interactive elements
+- Screen reader announcements
+- Logical focus/navigation order
+- Text scaling and readability
+- Colour contrast and non-colour indicators
+- Touch target usability
+- Validation and error message announcements
+
+Critical accessibility defects will be fixed and re-tested before release.
